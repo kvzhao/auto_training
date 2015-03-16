@@ -1,0 +1,11 @@
+[libprotobuf ERROR google/protobuf/text_format.cc:245] Error parsing text-format caffe.SolverParameter: 1:7: Message type "caffe.SolverParameter" has no field named "b0VIM".
+F0316 17:10:35.037829  3533 io.hpp:54] Check failed: ReadProtoFromTextFile(filename, proto) 
+*** Check failure stack trace: ***
+    @     0x7f890b20edbd  google::LogMessage::Fail()
+    @     0x7f890b210c5d  google::LogMessage::SendToLog()
+    @     0x7f890b20e9ac  google::LogMessage::Flush()
+    @     0x7f890b21157e  google::LogMessageFatal::~LogMessageFatal()
+    @           0x4070e1  train()
+    @           0x404ceb  main
+    @     0x7f890a725ec5  (unknown)
+    @           0x40516f  (unknown)
